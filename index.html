@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Batery</title>
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	<header>
+	<div class="mainInfo">
+		<ul class="mainInfoList">
+			<li id="moneyDisplay"></li>
+			<li id="cost" style="width: 10%;"></li>
+			<li><button id="sellEnergy">Vender Energia</button></li>
+			<li id="time"></li>
+			
+		</ul>
+	</div>
+	</header>
+	<section>
+	<div class="block">
+	<div class="slot">
+		<div id="batery">
+		<div id="capacity"></div>
+		</div>
+	</div>
+	<div class="info">
+		<ul class="infoList">
+			<li><strong>Bateria</strong></li><br>
+			<li class="topic">Energia:</li>
+			<li id="energyPerSecondBatery"></li>
+			<li id="currentEnergyBatery"></li>
+			<li id="maxCapacityBatery"></li><br><br><br>
+			<li class="topic">Atualizar:</li>
+			<li><button id="levelUp_capacity_batery">Capacidade</button></li>
+		</ul>
+	</div>
+	</div>
+	<div class="block">
+	<div class="slot">
+		<div id="manualGenerator">
+		<div id="handCrank"></div>
+		</div>
+	</div>
+
+	<div class="info">
+		<ul class="infoList">
+			<li id="manualGeneratorName"><strong>Gerador manual</strong></li><br>
+			<li class="topic">Estado:</li>
+			<li id="heatManualGenerator"></li>
+			<li id="manualGeneratorLife"></li>
+			<li id="manualGeneratorStatus"></li><br>
+			<li class="topic">Atualizar:</li>
+			<li><button id="levelUp_efficiency_manualGenerator"></button></li>
+			<li><button id="levelUp_cooler_manualGenerator"></button></li>
+		</ul>
+	</div>
+	</div>
+	<div class="block">
+	<div class="slot">
+		<div id="coalGenerator">
+			<div id="coalGeneratorRotor">&#8853;</div>
+			<div id="coalGeneratorFire">&#128293;</div>
+		</div>
+	</div>
+	<div class="info">
+		<ul class="infoList">
+			<li id="coalGeneratorName"><strong>Gerador a carvão</strong></li><br>
+			<li class="topic">Estado:</li>
+			<li id="fuelCoalGenerator">100</li>
+			<li id="coalGeneratorLife"></li>
+			<li id="coalGeneratorStatus"></li><br>
+			<li class="topic">Atualizar:</li>
+			<li><button id="levelUp_efficiency_coalGenerator"></button></li>
+		</ul>
+	</div>
+	</div>
+		<div class="block">
+	<div class="slot">
+		<div id="solarGenerator">
+			<img src="solarPanel.png" alt="solarPanel"/>
+		</div>
+	</div>
+	<div class="info">
+		<ul class="infoList">
+			<li id="solarGeneratorName"><strong>Gerador solar</strong></li><br>
+			<li class="topic">Estado:</li>
+			<li id="expositionSolarGenerator">100</li>
+			<li id="GeneratorLife"></li>
+			<li id="coalGeneratorStatus"></li><br>
+			<li class="topic">Atualizar:</li>
+			<li><button id="levelUp_efficiency_coalGenerator"></button></li>
+		</ul>
+	</div>
+	</div>
+	</section>
+	<body>
+		<script src="main.js"></script>
+	</body>
+</html>
+
